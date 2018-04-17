@@ -5,6 +5,18 @@ VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.Core", "GeoLib.Core\GeoLib.Core.csproj", "{1961C936-D594-407C-B33C-E2953E430D40}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.Data", "GeoLib.Data\GeoLib.Data.csproj", "{2C2F71D0-E96A-40F6-9D0B-74642F0A0CFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.Contract", "GeoLib.Contract\GeoLib.Contract.csproj", "{75FE9AB5-EDC2-46E4-861C-346B47A1BB2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geolib.Services", "Geolib.Services\Geolib.Services.csproj", "{D4B3417A-274F-4657-98FD-DB10770437E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.ConsoleHost", "GeoLib.ConsoleHost\GeoLib.ConsoleHost.csproj", "{1DCC1AC0-EDFF-4AA3-AFC9-C8AB5D3EA95E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.Client", "GeoLib.Client\GeoLib.Client.csproj", "{8FCF47FA-B47D-4F17-898F-ED640DE1D4F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.UnitTests", "GeoLib.UnitTests\GeoLib.UnitTests.csproj", "{AEE13268-645B-4F63-BD04-0CE482D49D9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +27,30 @@ Global
 		{1961C936-D594-407C-B33C-E2953E430D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1961C936-D594-407C-B33C-E2953E430D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1961C936-D594-407C-B33C-E2953E430D40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C2F71D0-E96A-40F6-9D0B-74642F0A0CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C2F71D0-E96A-40F6-9D0B-74642F0A0CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C2F71D0-E96A-40F6-9D0B-74642F0A0CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C2F71D0-E96A-40F6-9D0B-74642F0A0CFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75FE9AB5-EDC2-46E4-861C-346B47A1BB2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75FE9AB5-EDC2-46E4-861C-346B47A1BB2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75FE9AB5-EDC2-46E4-861C-346B47A1BB2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75FE9AB5-EDC2-46E4-861C-346B47A1BB2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4B3417A-274F-4657-98FD-DB10770437E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B3417A-274F-4657-98FD-DB10770437E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B3417A-274F-4657-98FD-DB10770437E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B3417A-274F-4657-98FD-DB10770437E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DCC1AC0-EDFF-4AA3-AFC9-C8AB5D3EA95E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DCC1AC0-EDFF-4AA3-AFC9-C8AB5D3EA95E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DCC1AC0-EDFF-4AA3-AFC9-C8AB5D3EA95E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DCC1AC0-EDFF-4AA3-AFC9-C8AB5D3EA95E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FCF47FA-B47D-4F17-898F-ED640DE1D4F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FCF47FA-B47D-4F17-898F-ED640DE1D4F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FCF47FA-B47D-4F17-898F-ED640DE1D4F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FCF47FA-B47D-4F17-898F-ED640DE1D4F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEE13268-645B-4F63-BD04-0CE482D49D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE13268-645B-4F63-BD04-0CE482D49D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE13268-645B-4F63-BD04-0CE482D49D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE13268-645B-4F63-BD04-0CE482D49D9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

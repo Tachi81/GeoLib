@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1961C936-D594-407C-B33C-E2953E430D40}</ProjectGuid>
+    <ProjectGuid>{2C2F71D0-E96A-40F6-9D0B-74642F0A0CFC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GeoLib.Core</RootNamespace>
-    <AssemblyName>GeoLib.Core</AssemblyName>
+    <RootNamespace>GeoLib.Data</RootNamespace>
+    <AssemblyName>GeoLib.Data</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -47,13 +47,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataExtensions.cs" />
-    <Compile Include="DataRepositoryBase.cs" />
-    <Compile Include="IDataRepository.cs" />
-    <Compile Include="IIdentifiableEntity.cs" />
+    <Compile Include="Entities\State.cs" />
+    <Compile Include="Entities\ZipCode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SimpleMapper.cs" />
+    <Compile Include="GeoLibDbContext.cs" />
+    <Compile Include="Repositories\StateRepository.cs" />
+    <Compile Include="Repositories\ZipCodeRepository.cs" />
+    <Compile Include="RepositoryInterface\IStateRepository.cs" />
+    <Compile Include="RepositoryInterface\IZipCodeRepository.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GeoLib.Core\GeoLib.Core.csproj">
+      <Project>{1961C936-D594-407C-B33C-E2953E430D40}</Project>
+      <Name>GeoLib.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
